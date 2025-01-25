@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
 import GetStartedComponent from "./GetStartedComponent";
 
-function Email({ email }) {
+function Email({ email,setEmail }) {
     useEffect(() => {
         console.log(email)
     });
     return (
         <>
-            <GetStartedComponent email={email}/>
+            <GetStartedComponent email={email} setEmail={setEmail}/>
         </>
     );
 }

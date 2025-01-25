@@ -1,13 +1,14 @@
 import React from 'react';
-import granitImg from '../img/projects/Granit.jpg'
-import kolcova from '../img/projects/kolcova.jpg'
-import naftan from '../img/projects/naftan.jpg'
-import viljamsa from '../img/projects/viljamsa.jpg'
-import railsLida from '../img/projects/railsLida.jpg'
-import zavodRails from '../img/projects/zavodRails.jpg'
-import minskEnergo from '..//img/projects/minskEnergo.jpg'
-import fokLuchina from '..//img/projects/fokLuchina.jpg'
-import droblenie from '../img/projects/droblenie.jpg'
+import cartonMel from '../img/projects/bum/carton-mel.jpg'
+import packingPaperImg from '../img/projects/bum/packing-paper2.png'
+import cartonRoll from '../img/projects/bum/carton-roll.jpg'
+import officePaperImg from '../img/projects/bum/paperOffice2.jpg'
+import bumGaz from '../img/projects/bum/bum-gaz.jpg'
+import lightCoaterPaperImg from '../img/projects/bum/light-coated-paper.png'
+import officePaperRollImg from '../img/projects/bum/office-paper-roll.png'
+import Card from 'react-bootstrap/Card';
+import {Link} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 function ProjectsComponent(props) {
     return (
@@ -15,183 +16,249 @@ function ProjectsComponent(props) {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-header">
-                    <h2>Наши объекты</h2>
-                    <p>Возведение и реконструкция объектов</p>
+                    <h2>Наш ассортимент</h2>
+                    <p>Бумага и картон</p>
                 </div>
 
                 <div className="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
                      data-portfolio-sort="original-order">
                     <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                            <div className="portfolio-content h-100">
-                                <img src={granitImg} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Возведение автодороги</h4>
-                                        <p>РУП "Гранит"</p>
-                                        <a href={granitImg} title="РУП Гранит"
-                                           data-gallery="portfolio-gallery-remodeling"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={officePaperRollImg} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Бумага
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Бумага офсетная в рулонах</h4></Card.Title>
+                                    <Card.Text >
+                                        Бумага офсетная в рулонах. Офсет производство ООО «КАМА» и завод ГОЗНАК г.Краснокамск
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={lightCoaterPaperImg} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Бумага
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Бумага легкая мелованная</h4></Card.Title>
+                                    <Card.Text >
+                                        Бумага легкая мелованная в рулонах. Производство  ООО "КАМА"
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={officePaperRollImg} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Бумага
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Бумага супер каландрированная</h4></Card.Title>
+                                    <Card.Text >
+                                        Бумага суперкаландрированная в рулонах. Производство ООО «КАМА»
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={bumGaz} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Бумага
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Бумага газетная</h4></Card.Title>
+                                    <Card.Text >
+                                        Бумага газетная в рулонах. Производство АО "Волга" и  АО "Кондопожский ЦБК"
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={officePaperImg} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Бумага
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Бумага для офиса</h4></Card.Title>
+                                    <Card.Text >
+                                        Офисная бумага формат А4 и А3
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={packingPaperImg} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Бумага
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Бумага упаковочная</h4></Card.Title>
+                                    <Card.Text >
+                                        Бумага упаковочная производства АО "ГОЗНАК" ф-л  Краснокамская бумажная фабрика
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={cartonRoll} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Картон
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Картон мелованный</h4></Card.Title>
+                                    <Card.Text >
+                                        Мелованные картоны массой от 190 до 350 гр.кв.м. производства ООО "КАМА" и Добрушской бумажной фабрики
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-construction">
-                            <div className="portfolio-content h-100">
-                                <img src={kolcova} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Жилой комплекс</h4>
-                                        <p>ул.Кольцова, г.Минск</p>
-                                        <a href={kolcova} title="ул.Кольцова"
-                                           data-gallery="portfolio-gallery-construction"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
+                        <div className="col-md-6 col-lg-4 col-xl-3">
+                            <Card border="warning" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',height:'35rem'}}>
+
+                                <Card.Img variant="top" src={cartonMel} />
+                                <div
+                                    className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                    style={{ top: "10px", left: "10px" }}
+                                >
+                                    Картон
+                                </div>
+                                <Card.Body >
+
+                                    <Card.Title ><h4>Картон мелованный в листах</h4></Card.Title>
+                                    <Card.Text >
+                                        Картон мелованный в листах 190-350 гр/кв.м производства ООО "КАМА" и Добрушской бумажной фабрики
+                                    </Card.Text>
+
+
+                                </Card.Body>
+                                <Card.Footer className="bg-transparent border-0">
+                                    <Card.Text  >
+                                        <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
+                                    </Card.Text>
+                                    <Link to="/email">
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                    </Link>
+                                </Card.Footer>
+                            </Card>
+
                         </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                            <div className="portfolio-content h-100">
-                                <img src={naftan} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Реконструкция</h4>
-                                        <p>ОАО Нафтан</p>
-                                        <a href={naftan} title="Нафтан"
-                                           data-gallery="portfolio-gallery-repairs"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-design">
-                            <div className="portfolio-content h-100">
-                                <img src={viljamsa} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Снос объекта</h4>
-                                        <p>ул.Вильямса</p>
-                                        <a href={viljamsa} title="ул.Вильямса"
-                                           data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i
-                                            className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                            <div className="portfolio-content h-100">
-                                <img src={railsLida} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Реконструкция железнодорожного пути</h4>
-                                        <p>Лида Гроднооблгаз</p>
-                                        <a href={railsLida} title="Лида ЖД"
-                                           data-gallery="portfolio-gallery-remodeling"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-construction">
-                            <div className="portfolio-content h-100">
-                                <img src={zavodRails} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Реконструкция железнодорожного пути</h4>
-                                        <p>Завод эффективных промышленных конструкций</p>
-                                        <a href={zavodRails} title="ЗЭПК"
-                                           data-gallery="portfolio-gallery-construction"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                            <div className="portfolio-content h-100">
-                                <img src={minskEnergo} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Строительство АБК</h4>
-                                        <p>ТЭЦ-2 Минскэнерго</p>
-                                        <a href={minskEnergo} title="ТЭЦ-2"
-                                           data-gallery="portfolio-gallery-repairs"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-design">
-                            <div className="portfolio-content h-100">
-                                <img src={fokLuchina} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>ФОК</h4>
-                                        <p>ул.Лучины</p>
-                                        <a href={fokLuchina} title="ФОК"
-                                           data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i
-                                            className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-                            <div className="portfolio-content h-100">
-                                <img src={droblenie} className="img-fluid" alt=""/>
-                                    <div className="portfolio-info">
-                                        <h4>Снос объета</h4>
-                                        <p>Дробление бетона</p>
-                                        <a href={droblenie} title="СЧнос"
-                                           data-gallery="portfolio-gallery-remodeling"
-                                           className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                        <a href="project-details.html" title="Подробнее" className="details-link"><i
-                                            className="bi bi-link-45deg"></i></a>
-                                    </div>
-                            </div>
-                        </div>
-                        {/*<div className="col-lg-4 col-md-6 portfolio-item filter-construction">*/}
-                        {/*    <div className="portfolio-content h-100">*/}
-                        {/*        <img src={constructionImg2} className="img-fluid" alt=""/>*/}
-                        {/*            <div className="portfolio-info">*/}
-                        {/*                <h4>Construction 3</h4>*/}
-                        {/*                <p>Lorem ipsum, dolor sit amet consectetur</p>*/}
-                        {/*                <a href="assets/img/projects/construction-3.jpg" title="Construction 3"*/}
-                        {/*                   data-gallery="portfolio-gallery-construction"*/}
-                        {/*                   className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>*/}
-                        {/*                <a href="project-details.html" title="More Details" className="details-link"><i*/}
-                        {/*                    className="bi bi-link-45deg"></i></a>*/}
-                        {/*            </div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-                        {/*<div className="col-lg-4 col-md-6 portfolio-item filter-repairs">*/}
-                        {/*    <div className="portfolio-content h-100">*/}
-                        {/*        <img src={repairsImg3} className="img-fluid" alt=""/>*/}
-                        {/*            <div className="portfolio-info">*/}
-                        {/*                <h4>Repairs 3</h4>*/}
-                        {/*                <p>Lorem ipsum, dolor sit amet consectetur</p>*/}
-                        {/*                <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2"*/}
-                        {/*                   data-gallery="portfolio-gallery-repairs"*/}
-                        {/*                   className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>*/}
-                        {/*                <a href="project-details.html" title="More Details" className="details-link"><i*/}
-                        {/*                    className="bi bi-link-45deg"></i></a>*/}
-                        {/*            </div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-                        {/*<div className="col-lg-4 col-md-6 portfolio-item filter-design">*/}
-                        {/*    <div className="portfolio-content h-100">*/}
-                        {/*        <img src={designImg3} className="img-fluid" alt=""/>*/}
-                        {/*            <div className="portfolio-info">*/}
-                        {/*                <h4>Design 3</h4>*/}
-                        {/*                <p>Lorem ipsum, dolor sit amet consectetur</p>*/}
-                        {/*                <a href="assets/img/projects/design-3.jpg" title="Repairs 3"*/}
-                        {/*                   data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i*/}
-                        {/*                    className="bi bi-zoom-in"></i></a>*/}
-                        {/*                <a href="project-details.html" title="More Details" className="details-link"><i*/}
-                        {/*                    className="bi bi-link-45deg"></i></a>*/}
-                        {/*            </div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
 
                     </div>
                 </div>

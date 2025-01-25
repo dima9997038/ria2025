@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
-import logo from '../img/logo/logoTrest.jpg'
+import logo from '../img/logo/logRia.jpg'
 import {Link} from "react-router-dom";
 
 function NavBarComponent(props) {

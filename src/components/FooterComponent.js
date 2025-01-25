@@ -1,81 +1,165 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import {Button} from "react-bootstrap";
+import "./Footer.css";
 
-function FooterComponent(props) {
+function FooterComponent({setEmail}) {
+
+    const handleInputChange = (e) => {
+
+        setEmail(e.target.value);
+    };
     return (
         <footer id="footer" className="footer">
             <div className="footer-content position-relative">
                 <div className="container">
-                    <div className="row">
+                    <div
+                        className="pb-4 mb-4"
+                        style={{borderBottom: "1px solid rgba(226, 175, 24, 0.5)"}}
+                    >
+                        <div className="row g-4">
+                            <div className="col-lg-3">
 
-                        <div className="col-lg-4 col-md-6">
-                            <div className="footer-info">
-                                <h3>ОАО «Управление СтройМеханизации» </h3>
-                                <p>
-                                    Республика Беларусь г.Минск <br/>
-                                    ул.Серова д.28, корп. 2<br/><br/>
-                                    <strong>Телефон:</strong>+375 17 388 05 95<br/>
-                                    <strong>Факс:</strong> +375 17 270 76 84 <br/>
-                                    <strong>Email:</strong> usm_info@mail.ru <br/>
-                                </p>
-                                <div className="social-links d-flex mt-3">
-                                    <a href="#" className="d-flex align-items-center justify-content-center"><i
-                                        className="bi bi-twitter"></i></a>
-                                    <a href="#" className="d-flex align-items-center justify-content-center"><i
-                                        className="bi bi-facebook"></i></a>
-                                    <a href="#" className="d-flex align-items-center justify-content-center"><i
-                                        className="bi bi-instagram"></i></a>
-                                    <a href="#" className="d-flex align-items-center justify-content-center"><i
-                                        className="bi bi-linkedin"></i></a>
+                                <h1 className="mb-0" style={{color: "#32CD32"}}>РИАгрупп М</h1>
+                                <p className=" mb-0" style={{color: "#FFD700"}}>Бумага и картон</p>
+
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="position-relative mx-auto">
+                                    <input
+                                        className="form-control border-0 w-100 py-3 px-4 rounded-pill"
+                                        type="email"
+                                        placeholder="Ваш Email" onChange={handleInputChange}
+                                    />
+                                    <Link to="/email">
+                                        <button
+                                            type="submit"
+                                            className="btn  border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white"
+                                            style={{top: "0", right: "0", backgroundColor: "#32CD32"}}
+                                        >
+                                            Отправить сообщение
+                                        </button>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-3">
+                                <div className="d-flex justify-content-end pt-3">
+                                    <a
+                                        className="btn  btn-outline-secondary me-2 btn-md-square rounded-circle"
+                                        href=""
+                                    >
+                                        <i className="fab fa-twitter"></i>
+                                    </a>
+                                    <a
+                                        className="btn btn-outline-secondary me-2 btn-md-square rounded-circle"
+                                        href=""
+                                    >
+                                        <i className="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a
+                                        className="btn btn-outline-secondary me-2 btn-md-square rounded-circle"
+                                        href=""
+                                    >
+                                        <i className="fab fa-youtube"></i>
+                                    </a>
+                                    <a
+                                        className="btn btn-outline-secondary btn-md-square rounded-circle"
+                                        href=""
+                                    >
+                                        <i className="fab fa-linkedin-in"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Полезные ссылки</h4>
-                            <ul>
-                                <li><a href="/">Главная</a></li>
-                                <li><a href="#">О нас</a></li>
-                                <li><a href="#services">Наши услуги</a></li>
-                                <li><a href="#projects">Наши проекты</a></li>
-                                <li> <Link to="/contacts">Контакты</Link></li>
-                            </ul>
+                    <div className="row g-5">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="footer-item">
+                                <h4 className="text-light mb-3">Быстро и качественно</h4>
+                                <p className="mb-4">
+                                    Поставщик бумаги и картона с 1993 года
+                                </p>
+                                {/*<a*/}
+                                {/*  href=""*/}
+                                {/*  className="btn border-secondary py-2 px-4 rounded-pill text-white"*/}
+                                {/*>*/}
+                                {/*  Ассортимент*/}
+                                {/*</a>*/}
+                                <Button href="#shop" lg className="m-lg-4  rounded-5 border-warning "
+                                        style={{backgroundColor: "#32CD32", whiteSpace: "nowrap"}}>Ассортимент</Button>
+                            </div>
                         </div>
+                        <div className="col-lg-3 col-md-6">
+                            <div className="d-flex flex-column text-start footer-item">
+                                <h4 className="text-light mb-3">Информация о нас</h4>
+                                <a href="">
+                                    Главная страница
+                                </a>
+                                <a href="#">
+                                    О компании
+                                </a>
+                                <a href="#shop">
+                                    Ассортимент
+                                </a>
+                                {/*<a className="btn-link" href="">*/}
+                                {/*  Наши сотрудники*/}
+                                {/*</a>*/}
+                                <a href="">
+                                    Контакты
+                                </a>
+                                {/*<a className="btn-link" href="">*/}
+                                {/*  FAQs & Help*/}
+                                {/*</a>*/}
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6">
+                            <div className="d-flex flex-column text-start footer-item">
+                                <h4 className="text-light mb-3">Наш ассортимент</h4>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Наши услуги</h4>
-                            <ul>
-                                <li><a href="#services">Возведение сооружений</a></li>
-                                <li><a href="#services">Строительство</a></li>
-                                <li><a href="#services">Демонтаж зданий и сооружений</a></li>
-                                <li><a href="#services">Переработка строительных отходов</a></li>
-                                <li><a href="#services">Аренда</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Информация</h4>
-                            <ul>
-                                <li><a href="/sertificate">Сертификаты</a></li>
-                                <li><a href="/fin">Финансовая отчетность</a></li>
-                                <li>
-                                    <Link to="/coruption">Борьба с корупцией</Link>
-                                </li>
-                                <li><a href="#">Профсоюзная жизнь</a></li>
-                                <li><a href="#">Техника безопасности</a></li>
-                                <li><a href="https://rec.gov.by/ru/election-schedule-ru/view/elections-2025-president">Выборы</a></li>
-                            </ul>
-                        </div>
-                        {/*<div className="col-lg-2 col-md-3 footer-links">*/}
-                        {/*    <h4>Nobis illum</h4>*/}
-                        {/*    <ul>*/}
-                        {/*        <li><a href="#">Ipsam</a></li>*/}
-                        {/*        <li><a href="#">Laudantium dolorum</a></li>*/}
-                        {/*        <li><a href="#">Dinera</a></li>*/}
-                        {/*        <li><a href="#">Trodelas</a></li>*/}
-                        {/*        <li><a href="#">Flexo</a></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
+                                <a href="#shop">
+                                    Бумага офсетная в рулонах
+                                </a>
+                                <a href="#shop">
+                                    Бумага легкая мелованная
+                                </a>
+                                <a href="#shop">
+                                    Бумага суперкаландрированная
+                                </a>
+                                <a href="#shop">
+                                    Бумага газетная
+                                </a>
+                                <a href="#shop">
+                                    Бумага для офиса
+                                </a>
+                                <a href="#shop">
+                                    Бумага упаковочная
+                                </a>
+                                <a href="#shop">
+                                    Картон мелованный
+                                </a>
+                                <a href="#shop">
+                                    Картон мелованный в листах
+                                </a>
 
+
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6">
+                            <div className="footer-item">
+                                <h4 className="text-light mb-3">Контакты</h4>
+                                <p>г.Минск ул.Краснозвездная 18-Б, офис 703,+375(17)284-35-25</p>
+                                <p>Email: ria-opt@tut.by</p>
+                                <p>Телефоны:</p>
+                                <p> +375(17) 284-35-25</p>
+                                <p>+375(17) 290-41-19(20)</p>
+                                <p>+375(29) 659-99-87</p>
+                                <p>+375(29) 578-35-25</p>
+                                <p>+375(29) 639-99-80 Viber</p>
+                                {/*<p>Payment Accepted</p>*/}
+                                {/*<img src="img/payment.png" className="img-fluid" alt="" />*/}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,7 +167,8 @@ function FooterComponent(props) {
             <div className="footer-legal text-center position-relative">
                 <div className="container">
                     <div className="copyright">
-                        &copy; Copyright <strong><span>ОАО «Управление СтройМеханизации»</span></strong>. All Rights Reserved
+                        &copy; Copyright <strong><span>ОАО «РИАгрупп М»</span></strong>. All Rights
+                        Reserved
                     </div>
                     <div className="credits">
                         Designed by dzmitrydubouski2@gmail.com

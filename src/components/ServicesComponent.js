@@ -6,8 +6,8 @@ function ServicesComponent(props) {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-header">
-                    <h2>Наши услуги</h2>
-                    <p>ОАО «Управление СтройМеханизации» специализируется на выполнении многопрофильных механизированных и строительно-монтажных работ</p>
+                    <h2>Наш комплекс услуг</h2>
+                    <p><h4>РИАгруппМ надежный и проверенный партнер на рынке бумаги и картона</h4> </p>
                 </div>
 
                 <div className="row gy-4">
@@ -15,10 +15,10 @@ function ServicesComponent(props) {
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div className="service-item  position-relative">
                             <div className="icon">
-                                <i className="fa-solid fa-mountain-city"></i>
+                                <i className="fa-solid fa-car-side"></i>
                             </div>
-                            <h3>Возведение сооружений</h3>
-                            <p> Возведение сооружений промышленного и гражданского назначения</p>
+                            <h3>Доставка</h3>
+                            <p> Доставка оптовым покупателям</p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
@@ -26,10 +26,10 @@ function ServicesComponent(props) {
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div className="service-item position-relative">
                             <div className="icon">
-                                <i className="fa-solid fa-arrow-up-from-ground-water"></i>
+                                <i className="fa-solid fa-handshake"></i>
                             </div>
-                            <h3>Строительство</h3>
-                            <p>Строительство зданий и сооружений</p>
+                            <h3>Персональный подход</h3>
+                            <p>Подберем вам самое выгодное предложение </p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
@@ -37,10 +37,10 @@ function ServicesComponent(props) {
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div className="service-item position-relative">
                             <div className="icon">
-                                <i className="fa-solid fa-compass-drafting"></i>
+                                <i className="fa-solid fa-heart"></i>
                             </div>
-                            <h3>Демонтаж</h3>
-                            <p>Демонтаж зданий и сооружений</p>
+                            <h3>Доверие</h3>
+                            <p>Добросовестно выполняем свои обязательства</p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
@@ -48,10 +48,10 @@ function ServicesComponent(props) {
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <div className="service-item position-relative">
                             <div className="icon">
-                                <i className="fa-solid fa-trowel-bricks"></i>
+                                <i className="fa-solid fa-phone-alt"></i>
                             </div>
-                            <h3>Переработка </h3>
-                            <p>Дробление и переработка строительных отходов</p>
+                            <h3>Коммуникацмм </h3>
+                            <p>Всегда на связи</p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
@@ -61,8 +61,8 @@ function ServicesComponent(props) {
                             <div className="icon">
                                 <i className="fa-solid fa-helmet-safety"></i>
                             </div>
-                            <h3>Аренда</h3>
-                            <p>Предоставление в аренду строительных машин и механизмов, в том числе грузоподъемной, землеройной и другой техники. сдача в аренду производственных помещений, складов, открытых площадок.</p>
+                            <h3>Гарантия поставок</h3>
+                            <p>Прямые связи с производителем</p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
@@ -72,8 +72,8 @@ function ServicesComponent(props) {
                             <div className="icon">
                                 <i className="fa-solid fa-arrow-up-from-ground-water"></i>
                             </div>
-                            <h3>Услуги автотранспорта</h3>
-                            <p>Предоставление услуг автотранспортной техники</p>
+                            <h3>Долгосрочное сотрудничество</h3>
+                            <p>Поставляем бумагу и картон с 1993 года</p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
