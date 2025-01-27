@@ -80,43 +80,26 @@ function FooterComponent({setEmail}) {
                                 <p className="mb-4">
                                     Поставщик бумаги и картона с 1993 года
                                 </p>
-                                {/*<a*/}
-                                {/*  href=""*/}
-                                {/*  className="btn border-secondary py-2 px-4 rounded-pill text-white"*/}
-                                {/*>*/}
-                                {/*  Ассортимент*/}
-                                {/*</a>*/}
-                                <Button href="#shop" lg className="m-lg-4  rounded-5 border-warning "
-                                        style={{backgroundColor: "#32CD32", whiteSpace: "nowrap"}}>Ассортимент</Button>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="d-flex flex-column text-start footer-item">
                                 <h4 className="text-light mb-3">Информация о нас</h4>
-                                <a href="">
+                                <a href="#">
                                     Главная страница
                                 </a>
-                                <a href="#">
-                                    О компании
-                                </a>
-                                <a href="#shop">
+                                <a href="#projects">
                                     Ассортимент
                                 </a>
-                                {/*<a className="btn-link" href="">*/}
-                                {/*  Наши сотрудники*/}
-                                {/*</a>*/}
-                                <a href="">
+                                <a href="#footer">
                                     Контакты
                                 </a>
-                                {/*<a className="btn-link" href="">*/}
-                                {/*  FAQs & Help*/}
-                                {/*</a>*/}
+
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="d-flex flex-column text-start footer-item">
                                 <h4 className="text-light mb-3">Наш ассортимент</h4>
-
                                 <a href="#shop">
                                     Бумага офсетная в рулонах
                                 </a>

@@ -1,9 +1,9 @@
 import React from 'react';
-import background1 from "../img/hero-carousel/carton-mel.jpg";
-import background6 from "../img/hero-carousel/coated-cardboard2.png";
-import background7 from "../img/hero-carousel/gazetaPaper.jpg";
-import background8 from "../img/hero-carousel/packing-paper.png";
-import background9 from "../img/hero-carousel/paperOffice.jpg";
+import background1 from "../img/hero-carousel/library.jpg";
+import background6 from "../img/hero-carousel/church.png";
+import background7 from "../img/hero-carousel/avenue.png";
+import background8 from "../img/hero-carousel/river.png";
+import background9 from "../img/hero-carousel/victory.png";
 
 function HeroComponent(props) {
     return (
@@ -13,10 +13,10 @@ function HeroComponent(props) {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6 text-center">
-                            <h4 style={{color:"yellow"}} data-aos="fade-down">Официальный торговый представитель в  Беларуси - ООО «КАМА», АО «ГОЗНАК» ЦБК г. Краснокамск, АО «Волга», ЦБК «Кондопога»</h4>
+                            <h3 style={{color:"yellow"}} data-aos="fade-down">Официальный торговый представитель в  Беларуси - ООО «КАМА», АО «ГОЗНАК» ЦБК г. Краснокамск, АО «Волга», ЦБК «Кондопога»</h3>
                             <p data-aos="fade-up"><h2>Ваш поставщик бумаги и картона с 1993 года</h2></p>
-                            <a data-aos="fade-up" data-aos-delay="200" href="#projects"
-                               className="btn-get-started">Купить сейчас</a>
+                            {/*<a data-aos="fade-up" data-aos-delay="200" href="#projects"*/}
+                            {/*   className="btn-get-started">Купить сейчас</a>*/}
                         </div>
                     </div>
                 </div>

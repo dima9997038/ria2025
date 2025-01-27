@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Nav, Navbar} from "react-bootstrap";
+import {Col, Container, Nav, Navbar, Row} from "react-bootstrap";
 import logo from '../img/logo/logRia.jpg'
 import {Link} from "react-router-dom";
 
@@ -9,7 +9,7 @@ function HeaderComponent(props) {
         <header id="header" className="header d-flex align-items-center">
             <Container className="container-fluid container-xl d-flex align-items-center justify-content-between">
                 {/*<a href="index.html" className="logo d-flex align-items-center">*/}
-                    <img src={logo} alt="" className="img-fluid" height="150" width='150'/>
+                    <img src={logo} alt="" className="img-fluid" height="80" width='80'/>
                 {/*</a>*/}
                 <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
                 <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -22,10 +22,10 @@ function HeaderComponent(props) {
                         {/*    <a href="#projects">О нас</a>*/}
                         {/*</li>*/}
                         <li>
-                            <a href="#services">Наши услуги</a>
+                            <a href="#services">Услуги</a>
                         </li>
                         <li>
-                            <a href="#projects">Наш accopnbvtyn</a>
+                            <a href="#projects">Ассортимент</a>
                         </li>
                         <li>
                             <a href="#footer">Контакты</a>

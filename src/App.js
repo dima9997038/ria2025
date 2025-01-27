@@ -12,12 +12,6 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home email={email} setEmail={setEmail} />}/>
                 <Route path="/email" element={<Email email={email} setEmail={setEmail}/>}/>
-                {/*<Route path="/blog" element={<Blog />} />*/}
-                {/*<Route path="/about" element={<About />} />*/}
-                {/*<Route path="/contact" element={<Contact />} />*/}
-                {/*<Route path="/project" element={<Project />} />*/}
-
-                {/*<Route path="/contacts" element={<Contact/>} />*/}
             </Routes>
         </BrowserRouter>
     );

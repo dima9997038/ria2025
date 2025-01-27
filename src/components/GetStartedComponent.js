@@ -40,20 +40,20 @@ function GetStartedComponent({ email,setEmail }) {
     return (
         <section id="get-started" className="get-started section-bg">
             <div className="container">
-                <Row className="row justify-content-between gy-4">
-                    <Col className="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-                        <div className="content">
-                            <h3>Ждем Ваших сообщений. Каждое Ваше обращение или предложение очень важно для нас.</h3>
-                            <p> Мы благодарны за каждое Ваше обращение или отзыв о нашей работе </p>
-                        </div>
-                    </Col>
-                    <Col className="col-lg-5" data-aos="fade">
+                {/*<Row className="row justify-content-between gy-4">*/}
+                {/*    <Col className="col-lg-6 d-flex align-items-center" data-aos="fade-up">*/}
+                {/*        <div className="content">*/}
+                {/*            <h3>Ждем Ваших сообщений. Каждое Ваше обращение или предложение очень важно для нас.</h3>*/}
+                {/*            <p> Мы благодарны за каждое Ваше обращение или отзыв о нашей работе </p>*/}
+                {/*        </div>*/}
+                {/*    </Col>*/}
+                {/*    <Col className="col-lg-5" data-aos="fade">*/}
                         <Form ref={form} className="php-email-form" onSubmit={sendEmail}>
                             <h3>Заполните пожалуста форму и отправьте Ваше сообщение.</h3>
                             <p>В соответствии с Законом об обработке персональных данных при отправке нам сообщение Вы даете разреешение на обработку персональных данных </p>
-                            <Row className="row gy-3">
+                            <Row className="row gy-3 justify-content-between">
                                 <Col className="col-md-12">
-                                    <Form.Control type="text" name="user_name" className="form-control" placeholder="Ваше имя и фамилия"
+                                    <Form.Control type="text" name="user_name" className="form-control " placeholder="Ваше имя и фамилия"
                                                   required></Form.Control>
                                 </Col>
                                 <Col className="col-md-12">
@@ -86,8 +86,8 @@ function GetStartedComponent({ email,setEmail }) {
                                 </Col>
                             </Row>
                         </Form>
-                    </Col>
-                </Row>
+                {/*    </Col>*/}
+                {/*</Row>*/}
             </div>
         </section>
     );
