@@ -13,7 +13,7 @@ function HeroComponent(props) {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6 text-center">
-                            <h3 style={{color:"yellow"}} data-aos="fade-down">Официальный торговый представитель в  Беларуси - ООО «КАМА», АО «ГОЗНАК» ЦБК г. Краснокамск, АО «Волга», ЦБК «Кондопога»</h3>
+                            <h3 style={{color:"yellow"}} data-aos="fade-down">Официальный торговый представитель в  Беларуси - ООО&nbsp;«КАМА», АО&nbsp;«ГОЗНАК» ЦБК&nbsp;г.Краснокамск, АО&nbsp;«Волга», ЦБК&nbsp;«Кондопога»</h3>
                             <p data-aos="fade-up"><h2>Ваш поставщик бумаги и картона с 1993 года</h2></p>
                             {/*<a data-aos="fade-up" data-aos-delay="200" href="#projects"*/}
                             {/*   className="btn-get-started">Купить сейчас</a>*/}
