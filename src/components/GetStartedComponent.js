@@ -50,7 +50,7 @@ function GetStartedComponent({ email,setEmail }) {
                     <Col className="col-lg-5" data-aos="fade">
                         <Form ref={form} className="rounded p-4 p-sm-3" onSubmit={sendEmail}>
                             <h3>Заполните пожалуста форму и отправьте Ваше сообщение.</h3>
-                            <p>В соответствии с Законом об обработке персональных данных при отправке нам сообщение Вы даете разреешение на обработку персональных данных </p>
+                            <p>В соответствии с Законом об обработке персональных данных при отправке нам сообщение Вы даете разрешение на обработку персональных данных </p>
                             {/*<Row className="row gy-3 justify-content-between">*/}
                                 <Form.Group>
                                     <Form.Control type="text" name="user_name" className="form-control " placeholder="Ваше имя и фамилия"

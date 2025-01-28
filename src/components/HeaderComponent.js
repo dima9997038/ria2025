@@ -7,13 +7,13 @@ import {Link} from "react-router-dom";
 function HeaderComponent(props) {
     return (
         <header id="header" className="header d-flex align-items-center">
-            <Container className="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <Container className="container-fluid container-xl d-flex align-items-center" style={{ gap: "20px" }}>
                 {/*<a href="index.html" className="logo d-flex align-items-center">*/}
-                    <img src={logo} alt="" className="img-fluid" height="80" width='80'/>
+                    <img src={logo} alt="" className="img-fluid" height="100" width='100'/>
                 {/*</a>*/}
                 <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
                 <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-                <nav id="navbar" className="navbar">
+                <nav id="navbar" className="navbar m-lg-auto" >
                     <ul>
                         <li>
                             <a href="/" className="active"> Главная </a>

@@ -48,7 +48,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -77,7 +77,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -106,7 +106,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -133,7 +133,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -162,7 +162,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -192,7 +192,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -222,7 +222,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>
@@ -253,7 +253,7 @@ function ProjectsComponent(props) {
                                         <p className="text-dark fs-5 fw-bold mb-0">Цена договорная</p>
                                     </Card.Text>
                                     <Link to="/email">
-                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Купить сейчас</Button>
+                                        <Button  variant="outline-warning" style={{fontStyle:"italic", fontWeight:'bold', color:"#32CD32"}} className=" rounded-pill px-3"> <i className="fa fa-shopping-bag me-2 "></i>Заказать</Button>
                                     </Link>
                                 </Card.Footer>
                             </Card>

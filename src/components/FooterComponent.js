@@ -20,7 +20,7 @@ function FooterComponent({setEmail}) {
                         <div className="row g-4">
                             <div className="col-lg-3">
 
-                                <h1 className="mb-0" style={{color: "#32CD32"}}>РИАгрупп М</h1>
+                                <h1 className="mb-0" style={{color: "#32CD32", whiteSpace: "nowrap" }}>РИАгрупп М</h1>
                                 <p className=" mb-0" style={{color: "#FFD700"}}>Бумага и картон</p>
 
                             </div>
