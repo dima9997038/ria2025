@@ -1,0 +1,96 @@
+.responsive-heading {
+    color: yellow; /* Ваш цвет текста */
+    font-size: 24px; /* Размер шрифта по умолчанию */
+    text-align: center; /* Выравнивание текста */
+    margin: 0 auto; /* Центрирование блока */
+    padding: 10px; /* Отступы */
+    transition: all 0.3s ease; /* Плавное изменение стилей */
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1200px) {
+    .responsive-heading {
+        font-size: 20px; /* Уменьшаем размер шрифта */
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-heading {
+        font-size: 18px; /* Ещё меньше для планшетов */
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-heading {
+        font-size: 16px; /* Минимальный размер для мобильных */
+        padding: 5px; /* Уменьшаем отступы */
+    }
+}
+
+.fluid-heading {
+    color: yellow; /* Цвет текста */
+    font-size: 2vw; /* Размер шрифта зависит от ширины viewport */
+    text-align: center !important;/* Выравнивание по центру */
+    margin: 0 auto; /* Центрирование блока */
+    padding: 2%; /* Отступы в процентах */
+    max-width: 90%; /* Максимальная ширина блока */
+    transition: all 0.3s ease; /* Плавные переходы */
+}
+
+.responsive-heading {
+    color: yellow; /* Цвет текста */
+    font-size: 24px; /* Размер шрифта по умолчанию */
+    text-align: center; /* Выравнивание по центру */
+    margin: 0 auto; /* Центрирование блока */
+    padding: 20px; /* Отступы */
+    max-width: 80%; /* Максимальная ширина блока */
+    transition: all 0.3s ease; /* Плавные переходы */
+}
+
+/* Стили для больших мониторов */
+@media (min-width: 1400px) {
+    .responsive-heading {
+        font-size: 32px; /* Увеличиваем размер шрифта */
+        max-width: 70%; /* Уменьшаем максимальную ширину блока */
+        padding: 30px; /* Увеличиваем отступы */
+    }
+}
+
+/*!* Медиа-запросы для других устройств *!*/
+@media (max-width: 1200px) {
+    .responsive-heading {
+        font-size: 1vw; /* Уменьшаем размер шрифта */
+    }
+}
+
+/*@media (max-width: 768px) {*/
+/*    .responsive-heading {*/
+/*        font-size: 18px; !* Ещё меньше для планшетов *!*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 480px) {*/
+/*    .responsive-heading {*/
+/*        font-size: 16px; !* Минимальный размер для мобильных *!*/
+/*        padding: 10px; !* Уменьшаем отступы *!*/
+/*    }*/
+/*}*/
+
+ Медиа-запросы для тонкой настройки
+@media (max-width: 768px) {
+    .responsive-heading {
+        font-size: 4vw; /* Увеличиваем размер шрифта для маленьких экранов */
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-heading{
+        font-size: 5vw; /* Ещё больше для мобильных устройств */
+        padding: 1%; /* Уменьшаем отступы */
+    }
+}
+
+/*.fluid-heading {*/
+/*    width: 100%;*/
+/*    box-sizing: border-box; !* Учитываем padding в общей ширине *!*/
+/*}*/
