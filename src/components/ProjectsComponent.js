@@ -65,7 +65,7 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Бумага легкая мелованная</h4></Card.Title>
+                                    <Card.Title ><h4>Бумага легко мелованная</h4></Card.Title>
                                     <Card.Text >
                                         Бумага легкая мелованная в рулонах. Производство  ООО&nbsp;"КАМА"
                                     </Card.Text>
@@ -94,7 +94,7 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Бумага супер каландрированная</h4></Card.Title>
+                                    <Card.Title ><h4>Бумага  <span>супер каландрированная </span></h4></Card.Title>
                                     <Card.Text >
                                         Бумага суперкаландрированная в рулонах. Производство ООО&nbsp;«КАМА»
                                     </Card.Text>

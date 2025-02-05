@@ -1,0 +1,17 @@
+/* Стиль для всех Nav.Link */
+.nav-link-custom {
+    color: yellow !important; /* Белый цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    font-family: 'Arial', sans-serif; /* Другой шрифт */
+    text-decoration: none; /* Убираем стандартное подчеркивание */
+    position: relative;
+}
+
+/* Убедитесь, что цвет текста остается белым при наведении и в активном состоянии */
+.nav-link-custom:hover,
+.nav-link-custom:focus,
+.nav-link-custom.active {
+    color: yellow !important;
+}
+

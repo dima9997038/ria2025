@@ -9,10 +9,10 @@ import background9 from "../img/hero-carousel/victory.png";
 function HeroComponent(props) {
     return (
         <section id="hero" className="hero">
-            <div className="info d-flex align-items-center">
+            <div className="info d-flex align-items-center" style={{ height: "130vh" }}>
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-sm-6 col-lg-6 col-xl-6  text-center">
+                        <div className="col-sm-6 col-lg-6 col-xl-8  text-center">
                             <h3
                                 style={{color:"yellow"}}
                                 data-aos="fade-down">

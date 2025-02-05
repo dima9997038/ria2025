@@ -50,7 +50,7 @@ function ServicesComponent(props) {
                             <div className="icon">
                                 <i className="fa-solid fa-phone-alt"></i>
                             </div>
-                            <h3>Коммуникацмм </h3>
+                            <h3>Коммуникации </h3>
                             <p>Всегда на связи</p>
                             {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
                             {/*    className="bi bi-arrow-right"></i></a>*/}
