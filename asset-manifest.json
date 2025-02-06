@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f135b3ec.css",
+    "main.js": "/static/js/main.b59ad673.js",
+    "static/js/453.9d90f2fc.chunk.js": "/static/js/453.9d90f2fc.chunk.js",
+    "static/media/river.png": "/static/media/river.e76170f52fc7b4390c3d.png",
+    "static/media/church.png": "/static/media/church.1d544366aa881611cfc6.png",
+    "static/media/avenue.png": "/static/media/avenue.15999cacd7aaf94fd5ad.png",
+    "static/media/victory.png": "/static/media/victory.12e38f33ebd295a30fb3.png",
+    "static/media/office-paper-roll.png": "/static/media/office-paper-roll.9aa15c5dc29a6506c834.png",
+    "static/media/library.jpg": "/static/media/library.d1b286c7db7708fd46a2.jpg",
+    "static/media/packing-paper2.png": "/static/media/packing-paper2.1ff67dfd685b9a6a3b02.png",
+    "static/media/light-coated-paper.png": "/static/media/light-coated-paper.8265b90de2a51818a415.png",
+    "static/media/paperOffice2.jpg": "/static/media/paperOffice2.6ceda7f5236297893d0b.jpg",
+    "static/media/carton-mel.jpg": "/static/media/carton-mel.3433a97bf1ee3d6b5d1a.jpg",
+    "static/media/logRia.jpg": "/static/media/logRia.c32879b1872f1378a7b7.jpg",
+    "index.html": "/index.html",
+    "main.f135b3ec.css.map": "/static/css/main.f135b3ec.css.map",
+    "main.b59ad673.js.map": "/static/js/main.b59ad673.js.map",
+    "453.9d90f2fc.chunk.js.map": "/static/js/453.9d90f2fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f135b3ec.css",
+    "static/js/main.b59ad673.js"
+  ]
+}
