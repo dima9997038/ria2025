@@ -1,9 +1,9 @@
 import React from 'react';
-import background1 from "../img/hero-carousel/library.jpg";
-import background6 from "../img/hero-carousel/church.png";
-import background7 from "../img/hero-carousel/avenue.png";
-import background8 from "../img/hero-carousel/river.png";
-import background9 from "../img/hero-carousel/victory.png";
+import background1 from "../img/hero-carousel/library2.jpg";
+import background6 from "../img/hero-carousel/church2.jpg";
+import background7 from "../img/hero-carousel/start_way.jpg";
+import background8 from "../img/hero-carousel/troichk.jpg";
+import background9 from "../img/hero-carousel/victory2.jpg";
 // import "./Hero.css"
 
 function HeroComponent(props) {

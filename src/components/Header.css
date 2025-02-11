@@ -1,7 +1,7 @@
 /* Стиль для всех Nav.Link */
 .nav-link-custom {
-    color: yellow !important; /* Белый цвет текста */
-    font-size: 18px; /* Размер шрифта */
+    color: white !important; /* Белый цвет текста */
+    font-size: 14px; /* Размер шрифта */
     font-weight: bold; /* Жирный шрифт */
     font-family: 'Arial', sans-serif; /* Другой шрифт */
     text-decoration: none; /* Убираем стандартное подчеркивание */
@@ -12,6 +12,20 @@
 .nav-link-custom:hover,
 .nav-link-custom:focus,
 .nav-link-custom.active {
-    color: yellow !important;
+    color: white !important;
 }
 
+.nav-link-navi_bar{
+    color: white !important; /* Белый цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    font-family: 'Arial', sans-serif; /* Другой шрифт */
+    text-decoration: none; /* Убираем стандартное подчеркивание */
+    position: relative;
+}
+
+.nav-link-navi_bar:hover,
+.nav-link-navi_bar:focus,
+.nav-link-navi_bar.active {
+    color: white !important;
+}

@@ -20,7 +20,7 @@ function FooterComponent({setEmail}) {
                         <div className="row g-4">
                             <div className="col-lg-3">
 
-                                <h1 className="mb-0" style={{color: "#32CD32", whiteSpace: "nowrap" }}>РИАгрупп М</h1>
+                                <h2 className="mb-0" style={{color: "#32CD32", whiteSpace: "nowrap" }}>РИАгрупп М</h2>
                                 <p className=" mb-0" style={{color: "#FFD700"}}>Бумага и картон</p>
 
                             </div>
@@ -150,7 +150,7 @@ function FooterComponent({setEmail}) {
             <div className="footer-legal text-center position-relative">
                 <div className="container">
                     <div className="copyright">
-                        &copy; Copyright <strong><span>ОАО «РИАгрупп М»</span></strong>. All Rights
+                        &copy; Copyright <strong><span>ООО «РИАгрупп М»</span></strong>. All Rights
                         Reserved
                     </div>
                     <div className="credits">

@@ -36,7 +36,7 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Бумага офсетная в рулонах</h4></Card.Title>
+                                    <Card.Title ><h4>Бумага офсетная в рулонах и листах</h4></Card.Title>
                                     <Card.Text >
                                         Бумага офсетная в рулонах. Офсет производство ООО&nbsp;«КАМА» и АО&nbsp;ГОЗНАК&nbsp;г.Краснокамск
                                     </Card.Text>
@@ -67,7 +67,7 @@ function ProjectsComponent(props) {
 
                                     <Card.Title ><h4>Бумага легко мелованная</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага легкая мелованная в рулонах. Производство  ООО&nbsp;"КАМА"
+                                        Бумага легкая мелованная в рулонах и листах. Производство  ООО&nbsp;"КАМА"
                                     </Card.Text>
 
 
@@ -125,7 +125,7 @@ function ProjectsComponent(props) {
 
                                     <Card.Title ><h4>Бумага газетная</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага газетная в рулонах. Производство АО&nbsp;"Волга" и  АО&nbsp;"Кондопожский ЦБК"
+                                        Бумага газетная в рулонах и листах. Производство АО&nbsp;"Волга" и  АО&nbsp;"Кондопожский ЦБК"
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className="bg-transparent border-0">
