@@ -38,7 +38,7 @@ function ProjectsComponent(props) {
 
                                     <Card.Title ><h4>Бумага офсетная в рулонах и листах</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага офсетная в рулонах. Офсет производство ООО&nbsp;«КАМА» и АО&nbsp;ГОЗНАК&nbsp;г.Краснокамск
+                                        Производство ООО&nbsp;«КАМА» и АО&nbsp;ГОЗНАК <br/>г.Краснокамск
                                     </Card.Text>
 
 
@@ -65,9 +65,9 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Бумага легко мелованная</h4></Card.Title>
+                                    <Card.Title ><h4>Бумага легко мелованная в рулонах и листах</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага легкая мелованная в рулонах и листах. Производство  ООО&nbsp;"КАМА"
+                                        Производство  ООО&nbsp;"КАМА"
                                     </Card.Text>
 
 
@@ -94,9 +94,10 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Бумага  <span>супер каландрированная </span></h4></Card.Title>
+                                    <Card.Title ><h4>Бумага супер каландрированная в&nbsp;рулонах</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага суперкаландрированная в рулонах. Производство ООО&nbsp;«КАМА»
+                                        <br/>
+                                       Производство ООО&nbsp;«КАМА»
                                     </Card.Text>
 
 
@@ -123,9 +124,9 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Бумага газетная</h4></Card.Title>
+                                    <Card.Title ><h4>Бумага газетная в рулонах и листах</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага газетная в рулонах и листах. Производство АО&nbsp;"Волга" и  АО&nbsp;"Кондопожский ЦБК"
+                                       Производство АО&nbsp;"Волга" и  АО&nbsp;"Кондопожский ЦБК"
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer className="bg-transparent border-0">
@@ -152,6 +153,7 @@ function ProjectsComponent(props) {
 
                                     <Card.Title ><h4>Бумага для офиса</h4></Card.Title>
                                     <Card.Text >
+                                        <br/>
                                         Офисная бумага формат А4 и А3
                                     </Card.Text>
 
@@ -182,7 +184,8 @@ function ProjectsComponent(props) {
 
                                     <Card.Title ><h4>Бумага упаковочная</h4></Card.Title>
                                     <Card.Text >
-                                        Бумага упаковочная производства АО&nbsp;"ГОЗНАК" ф-л&nbsp;Краснокамская бумажная фабрика
+                                        <br/>
+                                       Производство АО&nbsp;"ГОЗНАК" филиал Краснокамская бумажная фабрика
                                     </Card.Text>
 
 
@@ -210,9 +213,9 @@ function ProjectsComponent(props) {
                                 </div>
                                 <Card.Body >
 
-                                    <Card.Title ><h4>Картон мелованный</h4></Card.Title>
+                                    <Card.Title ><h4>Картон мелованный в рулонах</h4></Card.Title>
                                     <Card.Text >
-                                        Мелованные картоны массой от 190 до 350 гр.кв.м. производства ООО&nbsp;"КАМА" и Добрушской бумажной фабрики
+                                        Массой от 190 до 350 гр.кв.м. производство ООО&nbsp;"КАМА" и Добрушской бумажной фабрики
                                     </Card.Text>
 
 
@@ -243,7 +246,7 @@ function ProjectsComponent(props) {
 
                                     <Card.Title ><h4>Картон мелованный в листах</h4></Card.Title>
                                     <Card.Text >
-                                        Картон мелованный в листах 190-350 гр/кв.м производства ООО&nbsp;"КАМА" и Добрушской бумажной фабрики
+                                        Массой 190-350 гр/кв.м производство ООО&nbsp;"КАМА" и Добрушской бумажной фабрики
                                     </Card.Text>
 
 

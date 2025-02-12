@@ -17,10 +17,12 @@ function HeaderComponent(props) {
 
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#services" className="active fs-5 fw-bold font-monospace nav-link-custom" >Услуги</Nav.Link>
-                            <Nav.Link href="#projects" className="fs-5 fw-bold font-monospace nav-link-custom">Ассортимент</Nav.Link>
-                            <Link to="/about" className="fs-5 fw-bold font-monospace nav-link-custom">О нас</Link>
-                            <Nav.Link href="#footer" className="fs-5 fw-bold font-monospace nav-link-custom">Контакты</Nav.Link>
+                            <Nav.Link href="#services" className="active fs-6 fw-bold font-monospace nav-link-custom" >Услуги</Nav.Link>
+                            <Nav.Link href="#projects" className="fs-6 fw-bold font-monospace nav-link-custom">Ассортимент</Nav.Link>
+                            <Link to="/about" className="fs-6 fw-bold font-monospace nav-link-custom">О нас</Link>
+                            <Link to="/news" className="fs-6 fw-bold font-monospace nav-link-custom">Новости</Link>
+                            <Link to="/doc" className="fs-6 fw-bold font-monospace nav-link-custom">Документы</Link>
+                            <Nav.Link href="#footer" className="fs-6 fw-bold font-monospace nav-link-custom">Контакты</Nav.Link>
                         </Nav>
 
                     </Navbar.Collapse>

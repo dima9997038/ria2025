@@ -1,10 +1,10 @@
 /* Стиль для всех Nav.Link */
 .nav-link-custom {
     color: white !important; /* Белый цвет текста */
-    font-size: 14px; /* Размер шрифта */
-    font-weight: bold; /* Жирный шрифт */
-    font-family: 'Arial', sans-serif; /* Другой шрифт */
-    text-decoration: none; /* Убираем стандартное подчеркивание */
+    /*font-size: 10px; !* Размер шрифта *!*/
+    /*font-weight: bold; !* Жирный шрифт *!*/
+    /*font-family: 'Arial', sans-serif; !* Другой шрифт *!*/
+    /*text-decoration: none; !* Убираем стандартное подчеркивание *!*/
     position: relative;
 }
 
@@ -28,4 +28,13 @@
 .nav-link-navi_bar:focus,
 .nav-link-navi_bar.active {
     color: white !important;
+}
+
+.navi-bar{
+    color: #fff;
+    background:  #808080 top center no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    padding: 80px 0 60px 0;
+    position: relative;
 }
