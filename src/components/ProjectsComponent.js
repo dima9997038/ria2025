@@ -3,7 +3,7 @@ import cartonMel from '../img/projects/bum/carton-mel.jpg'
 import packingPaperImg from '../img/projects/bum/packing-paper2.png'
 import cartonRoll from '../img/projects/bum/carton-roll.jpg'
 import officePaperImg from '../img/projects/bum/paperOffice2.jpg'
-import bumGaz from '../img/projects/bum/bum-gaz.jpg'
+import bumGaz from '../img/projects/bum/bum-gaz2.jpg'
 import lightCoaterPaperImg from '../img/projects/bum/light-coated-paper.png'
 import officePaperRollImg from '../img/projects/bum/office-paper-roll.png'
 import Card from 'react-bootstrap/Card';

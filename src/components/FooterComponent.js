@@ -88,12 +88,21 @@ function FooterComponent({setEmail}) {
                                 <a href="#">
                                     Главная страница
                                 </a>
+                                <a href="#services">
+                                    Услуги
+                                </a>
                                 <a href="#projects">
                                     Ассортимент
                                 </a>
-                                <a href="#footer">
-                                    Контакты
-                                </a>
+                                <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+                                    О нас
+                                </Link>
+                                <Link to="/news" onClick={() => window.scrollTo(0, 0)}>
+                                    Новости
+                                </Link>
+                                <Link to="/doc" onClick={() => window.scrollTo(0, 0)}>
+                                    Документы
+                                </Link>
 
                             </div>
                         </div>
