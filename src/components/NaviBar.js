@@ -13,8 +13,16 @@ function NaviBar(props) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Link to="/" className="active fs-5 fw-bold font-monospace nav-link-navi_bar" >Главная</Link>
+                            <Link to="/#services" className="fs-5 fw-bold font-monospace nav-link-navi_bar">Услуги</Link>
+                            <Link to="/#projects" className="fs-5 fw-bold font-monospace nav-link-navi_bar">Ассортимент</Link>
+                            <Link to="/about" className="fs-5 fw-bold font-monospace nav-link-navi_bar">О нас</Link>
                             <Link to="/news" className="fs-5 fw-bold font-monospace nav-link-navi_bar">Новости</Link>
                             <Link to="/doc" className="fs-5 fw-bold font-monospace nav-link-navi_bar">Документы</Link>
+                            <Link to="/#footer" className="fs-5 fw-bold font-monospace nav-link-navi_bar">Контакты</Link>
+
+
+
+
                         </Nav>
                     </Navbar.Collapse>
 
