@@ -73,11 +73,11 @@ const styles = {
     },
     heading: {
         textAlign: 'center',
-        color: '#004080',
+        color: '#32CD32',
         marginBottom: '20px',
     },
     subHeading: {
-        color: '#004080',
+        color: '#FFD700',
         marginTop: '30px',
         marginBottom: '15px',
     },
@@ -91,7 +91,7 @@ const styles = {
     },
     highlight: {
         fontWeight: 'bold',
-        color: '#004080',
+        color: '#32CD32',
     },
     contactInfo: {
         backgroundColor: '#e6f2ff',

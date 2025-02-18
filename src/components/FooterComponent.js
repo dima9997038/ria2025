@@ -109,28 +109,28 @@ function FooterComponent({setEmail}) {
                         <div className="col-lg-3 col-md-6">
                             <div className="d-flex flex-column text-start footer-item">
                                 <h4 className="text-light mb-3">Наш ассортимент</h4>
-                                <a href="#shop">
-                                    Бумага офсетная в рулонах
+                                <a href="#projects">
+                                    Бумага офсетная в рулонах и листах
                                 </a>
-                                <a href="#shop">
-                                    Бумага легкая мелованная
+                                <a href="#projects">
+                                    Бумага легкая мелованная в рулонах и листах
                                 </a>
-                                <a href="#shop">
-                                    Бумага суперкаландрированная
+                                <a href="#projects">
+                                    Бумага суперкаландрированная в рулонах
                                 </a>
-                                <a href="#shop">
-                                    Бумага газетная
+                                <a href="#projects">
+                                    Бумага газетная в рулонах и листах
                                 </a>
-                                <a href="#shop">
+                                <a href="#projects">
                                     Бумага для офиса
                                 </a>
-                                <a href="#shop">
+                                <a href="#projects">
                                     Бумага упаковочная
                                 </a>
-                                <a href="#shop">
-                                    Картон мелованный
+                                <a href="#projects">
+                                    Картон мелованный в рулонах
                                 </a>
-                                <a href="#shop">
+                                <a href="#projects">
                                     Картон мелованный в листах
                                 </a>
 
