@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa341959.css",
-    "main.js": "/static/js/main.5b3f82d3.js",
+    "main.css": "/static/css/main.d0237589.css",
+    "main.js": "/static/js/main.c41edf5e.js",
     "static/js/453.9d90f2fc.chunk.js": "/static/js/453.9d90f2fc.chunk.js",
     "static/media/troichk.jpg": "/static/media/troichk.a98f96d43f96a7f74a55.jpg",
     "static/media/kama2.jpg": "/static/media/kama2.bf943aa30e1ee867a039.jpg",
@@ -14,6 +14,7 @@
     "static/media/kind.jpg": "/static/media/kind.4d3a0a97d0f4dac19870.jpg",
     "static/media/kondopoga.jpg": "/static/media/kondopoga.00d4ad6fa19f8e57e817.jpg",
     "static/media/church2.jpg": "/static/media/church2.3a9e5185cc2044bed3d1.jpg",
+    "static/media/bum-gaz2.jpg": "/static/media/bum-gaz2.ae3f6033c51baf597862.jpg",
     "static/media/declaration.jpg": "/static/media/declaration.2fce66d86a58174ea711.jpg",
     "static/media/registration.jpg": "/static/media/registration.da229d7c9580e5014670.jpg",
     "static/media/letterGosznak.jpg": "/static/media/letterGosznak.5cf1a7fc7f342f69f36b.jpg",
@@ -25,12 +26,12 @@
     "static/media/carton-mel.jpg": "/static/media/carton-mel.3433a97bf1ee3d6b5d1a.jpg",
     "static/media/logRia.jpg": "/static/media/logRia.c32879b1872f1378a7b7.jpg",
     "index.html": "/index.html",
-    "main.fa341959.css.map": "/static/css/main.fa341959.css.map",
-    "main.5b3f82d3.js.map": "/static/js/main.5b3f82d3.js.map",
+    "main.d0237589.css.map": "/static/css/main.d0237589.css.map",
+    "main.c41edf5e.js.map": "/static/js/main.c41edf5e.js.map",
     "453.9d90f2fc.chunk.js.map": "/static/js/453.9d90f2fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa341959.css",
-    "static/js/main.5b3f82d3.js"
+    "static/css/main.d0237589.css",
+    "static/js/main.c41edf5e.js"
   ]
 }
