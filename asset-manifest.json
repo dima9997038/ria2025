@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0237589.css",
-    "main.js": "/static/js/main.369f371e.js",
+    "main.js": "/static/js/main.e53cca48.js",
     "static/js/453.1259e920.chunk.js": "/static/js/453.1259e920.chunk.js",
     "static/media/troichk.jpg": "/static/media/troichk.a98f96d43f96a7f74a55.jpg",
     "static/media/KAMA_legkomelovannaya-images-1.jpg": "/static/media/KAMA_legkomelovannaya-images-1.ee142bebcfd2f861afc8.jpg",
@@ -45,11 +45,11 @@
     "static/media/logRia.jpg": "/static/media/logRia.c32879b1872f1378a7b7.jpg",
     "index.html": "/index.html",
     "main.d0237589.css.map": "/static/css/main.d0237589.css.map",
-    "main.369f371e.js.map": "/static/js/main.369f371e.js.map",
+    "main.e53cca48.js.map": "/static/js/main.e53cca48.js.map",
     "453.1259e920.chunk.js.map": "/static/js/453.1259e920.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0237589.css",
-    "static/js/main.369f371e.js"
+    "static/js/main.e53cca48.js"
   ]
 }
