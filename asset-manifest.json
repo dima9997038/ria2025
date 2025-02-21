@@ -1,21 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.d0237589.css",
-    "main.js": "/static/js/main.0e4bb287.js",
-    "static/js/453.1259e920.chunk.js": "/static/js/453.1259e920.chunk.js",
+    "main.js": "/static/js/main.0481122a.js",
+    "static/js/453.9d90f2fc.chunk.js": "/static/js/453.9d90f2fc.chunk.js",
     "static/media/troichk.jpg": "/static/media/troichk.a98f96d43f96a7f74a55.jpg",
     "static/media/KAMA_legkomelovannaya-images-1.jpg": "/static/media/KAMA_legkomelovannaya-images-1.ee142bebcfd2f861afc8.jpg",
-    "static/media/kama2.jpg": "/static/media/kama2.bf943aa30e1ee867a039.jpg",
-    "static/media/kama3.jpg": "/static/media/kama3.bf943aa30e1ee867a039.jpg",
-    "static/media/sertificat.jpg": "/static/media/sertificat.bf943aa30e1ee867a039.jpg",
     "static/media/KAMA_legkomelovannaya-images-0.jpg": "/static/media/KAMA_legkomelovannaya-images-0.2bdebf643ecf1ca08f1f.jpg",
     "static/media/victory2.jpg": "/static/media/victory2.8081a927392537680f82.jpg",
     "static/media/start_way.jpg": "/static/media/start_way.ab74e1f333d3cc92dda4.jpg",
     "static/media/library2.jpg": "/static/media/library2.ace6cee5840dd01c7460.jpg",
     "static/media/sertificat-kama.jpg": "/static/media/sertificat-kama.b46135062722d7333a2b.jpg",
-    "static/media/kind.jpg": "/static/media/kind.4d3a0a97d0f4dac19870.jpg",
     "static/media/sertKama52.jpg": "/static/media/sertKama52.518ea4cacecfd7e3d6a8.jpg",
-    "static/media/kondopoga.jpg": "/static/media/kondopoga.00d4ad6fa19f8e57e817.jpg",
     "static/media/church2.jpg": "/static/media/church2.3a9e5185cc2044bed3d1.jpg",
     "static/media/bum-gaz2.jpg": "/static/media/bum-gaz2.ae3f6033c51baf597862.jpg",
     "static/media/KAMA_BRIGHT GC1-images-1.jpg": "/static/media/KAMA_BRIGHT GC1-images-1.5ba8cee931702f54f4e7.jpg",
@@ -23,9 +18,7 @@
     "static/media/declaration.jpg": "/static/media/declaration.2fce66d86a58174ea711.jpg",
     "static/media/registration.jpg": "/static/media/registration.da229d7c9580e5014670.jpg",
     "static/media/letterGoszn.jpg": "/static/media/letterGoszn.5cf1a7fc7f342f69f36b.jpg",
-    "static/media/letterGosznak.jpg": "/static/media/letterGosznak.5cf1a7fc7f342f69f36b.jpg",
     "static/media/KAMA_PHARMA GC 1.jpg": "/static/media/KAMA_PHARMA GC 1.f1f2d05d29657d8fee66.jpg",
-    "static/media/gosgnak-trust.jpg": "/static/media/gosgnak-trust.9d690786f4b5e94b6be5.jpg",
     "static/media/letterGoszn2.jpg": "/static/media/letterGoszn2.913ad717ecfd3bce039c.jpg",
     "static/media/KAMA_PROJECT GC 2.jpg": "/static/media/KAMA_PROJECT GC 2.ce158d2e22c74fffac55.jpg",
     "static/media/KAMA_STRONG GC 2-images-0.jpg": "/static/media/KAMA_STRONG GC 2-images-0.855f6f15556850ae4ef7.jpg",
@@ -45,11 +38,11 @@
     "static/media/logRia.jpg": "/static/media/logRia.c32879b1872f1378a7b7.jpg",
     "index.html": "/index.html",
     "main.d0237589.css.map": "/static/css/main.d0237589.css.map",
-    "main.0e4bb287.js.map": "/static/js/main.0e4bb287.js.map",
-    "453.1259e920.chunk.js.map": "/static/js/453.1259e920.chunk.js.map"
+    "main.0481122a.js.map": "/static/js/main.0481122a.js.map",
+    "453.9d90f2fc.chunk.js.map": "/static/js/453.9d90f2fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0237589.css",
-    "static/js/main.0e4bb287.js"
+    "static/js/main.0481122a.js"
   ]
 }
