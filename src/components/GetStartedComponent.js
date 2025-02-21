@@ -11,11 +11,17 @@ function GetStartedComponent({ email,setEmail }) {
         e.preventDefault()
         emailjs
             .sendForm(
-                "service_8e4m9bj",
-                "template_xd5vcoo",
+                "service_h7ooydm",
+                "template_plz7vuk",
                 form.current,
-                "rrk3AplySzAd8uJ_9"
+                "6h-Gp2XUc4iysMejd"
             )
+            // .sendForm(
+            //     "service_8e4m9bj",
+            //     "template_xd5vcoo",
+            //     form.current,
+            //     "rrk3AplySzAd8uJ_9"
+            // )
             .then(
                 (result) => {
                     console.log(result.text);
@@ -49,8 +55,8 @@ function GetStartedComponent({ email,setEmail }) {
                     </Col>
                     <Col className="col-lg-5" data-aos="fade">
                         <Form ref={form} className="rounded p-4 p-sm-3" onSubmit={sendEmail}>
-                            <h3>Заполните пожалуста форму и отправьте Ваше сообщение.</h3>
-                            <p>В соответствии с Законом об обработке персональных данных при отправке нам сообщение Вы даете разрешение на обработку персональных данных </p>
+                            <h3>Заполните пожалуйста форму и отправьте Ваше сообщение.</h3>
+                            <p>В соответствии с Законом об обработке персональных данных при отправке нам сообщения Вы даете разрешение на обработку персональных данных </p>
                             {/*<Row className="row gy-3 justify-content-between">*/}
                                 <Form.Group>
                                     <Form.Control type="text" name="user_name" className="form-control " placeholder="Ваше имя и фамилия"
