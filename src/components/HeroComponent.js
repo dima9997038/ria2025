@@ -4,7 +4,6 @@ import background6 from "../img/hero-carousel/church2.jpg";
 import background7 from "../img/hero-carousel/start_way.jpg";
 import background8 from "../img/hero-carousel/troichk.jpg";
 import background9 from "../img/hero-carousel/victory2.jpg";
-// import "./Hero.css"
 
 function HeroComponent(props) {
     return (
@@ -22,8 +21,6 @@ function HeroComponent(props) {
                                 <h2
                                 >Ваш поставщик бумаги и картона с 1993 года
                                 </h2></div>
-                            {/*<a data-aos="fade-up" data-aos-delay="200" href="#projects"*/}
-                            {/*   className="btn-get-started">Купить сейчас</a>*/}
                         </div>
                     </div>
                 </div>

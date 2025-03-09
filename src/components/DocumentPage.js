@@ -2,9 +2,7 @@ import React from 'react';
 import { Col, Container, Image, Row} from "react-bootstrap";
 import registration from '../img/docs/registration.jpg'
 import kama from '../img/docs/sertificat-kama.jpg'
-
 import declaration from '..//img/docs/declaration.jpg'
-
 import kamaOffset from '../img/docs/BUMAGA_OFSETNAYa_final.jpg'
 import kamaOffsetPuH from '../img/docs/BUMAGA_OFSETNAYa_PUHLAYa_final.jpg'
 import LwcUltraBright from '../img/docs/LWC_Ural_Bright.jpg'

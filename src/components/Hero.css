@@ -63,18 +63,6 @@
     }
 }
 
-/*@media (max-width: 768px) {*/
-/*    .responsive-heading {*/
-/*        font-size: 18px; !* Ещё меньше для планшетов *!*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 480px) {*/
-/*    .responsive-heading {*/
-/*        font-size: 16px; !* Минимальный размер для мобильных *!*/
-/*        padding: 10px; !* Уменьшаем отступы *!*/
-/*    }*/
-/*}*/
 
  Медиа-запросы для тонкой настройки
 @media (max-width: 768px) {
@@ -89,8 +77,3 @@
         padding: 1%; /* Уменьшаем отступы */
     }
 }
-
-/*.fluid-heading {*/
-/*    width: 100%;*/
-/*    box-sizing: border-box; !* Учитываем padding в общей ширине *!*/
-/*}*/

@@ -1,10 +1,6 @@
 /* Стиль для всех Nav.Link */
 .nav-link-custom {
     color: white !important; /* Белый цвет текста */
-    /*font-size: 10px; !* Размер шрифта *!*/
-    /*font-weight: bold; !* Жирный шрифт *!*/
-    /*font-family: 'Arial', sans-serif; !* Другой шрифт *!*/
-    /*text-decoration: none; !* Убираем стандартное подчеркивание *!*/
     position: relative;
 }
 
