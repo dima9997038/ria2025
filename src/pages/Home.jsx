@@ -6,6 +6,7 @@ import HeaderComponent from "../components/HeaderComponent";
 import HeroComponent from "../components/HeroComponent";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import TawkTo from "../components/TawkTo";
 
 function Home({email,setEmail}) {
     const location = useLocation();
@@ -27,6 +28,7 @@ function Home({email,setEmail}) {
                 <ProjectsComponent/>
             </main>
             <FooterComponent  setEmail={setEmail}/>
+            <TawkTo/>
         </>
     );
 }

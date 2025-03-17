@@ -7,6 +7,7 @@ import {useState} from "react";
 import About from "./components/About";
 import News from "./components/News";
 import Document from "./components/Document";
+import TawkTo from "./components/TawkTo";
 
 function App() {
     const [email, setEmail] = useState('');
