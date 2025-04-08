@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0237589.css",
-    "main.js": "/static/js/main.faee539a.js",
+    "main.css": "/static/css/main.f50e0313.css",
+    "main.js": "/static/js/main.fe29ee0c.js",
     "static/js/453.9d90f2fc.chunk.js": "/static/js/453.9d90f2fc.chunk.js",
     "static/media/troichk.jpg": "/static/media/troichk.a98f96d43f96a7f74a55.jpg",
     "static/media/KAMA_legkomelovannaya-images-1.jpg": "/static/media/KAMA_legkomelovannaya-images-1.ee142bebcfd2f861afc8.jpg",
@@ -37,12 +37,12 @@
     "static/media/carton-mel.jpg": "/static/media/carton-mel.3433a97bf1ee3d6b5d1a.jpg",
     "static/media/logRia.jpg": "/static/media/logRia.c32879b1872f1378a7b7.jpg",
     "index.html": "/index.html",
-    "main.d0237589.css.map": "/static/css/main.d0237589.css.map",
-    "main.faee539a.js.map": "/static/js/main.faee539a.js.map",
+    "main.f50e0313.css.map": "/static/css/main.f50e0313.css.map",
+    "main.fe29ee0c.js.map": "/static/js/main.fe29ee0c.js.map",
     "453.9d90f2fc.chunk.js.map": "/static/js/453.9d90f2fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0237589.css",
-    "static/js/main.faee539a.js"
+    "static/css/main.f50e0313.css",
+    "static/js/main.fe29ee0c.js"
   ]
 }
