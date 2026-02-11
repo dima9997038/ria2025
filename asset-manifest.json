@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e3a3f86.css",
-    "main.js": "/static/js/main.432431cf.js",
-    "static/js/453.9d90f2fc.chunk.js": "/static/js/453.9d90f2fc.chunk.js",
+    "main.css": "/static/css/main.7912223e.css",
+    "main.js": "/static/js/main.e0ebad79.js",
+    "static/js/453.1259e920.chunk.js": "/static/js/453.1259e920.chunk.js",
     "static/media/troichk.jpg": "/static/media/troichk.a98f96d43f96a7f74a55.jpg",
     "static/media/KAMA_legkomelovannaya-images-1.jpg": "/static/media/KAMA_legkomelovannaya-images-1.ee142bebcfd2f861afc8.jpg",
     "static/media/KAMA_legkomelovannaya-images-0.jpg": "/static/media/KAMA_legkomelovannaya-images-0.2bdebf643ecf1ca08f1f.jpg",
@@ -30,6 +30,7 @@
     "static/media/BUMAGA_OFSETNAYa_PUHLAYa_final.jpg": "/static/media/BUMAGA_OFSETNAYa_PUHLAYa_final.907d45acaff104896950.jpg",
     "static/media/letterKama.jpg": "/static/media/letterKama.64df0283f3488f474281.jpg",
     "static/media/letterVolga.jpg": "/static/media/letterVolga.85a79df2e6aa894e2dfb.jpg",
+    "static/media/NewYear1.jpg": "/static/media/NewYear1.7f5985452f6bca32bf78.jpg",
     "static/media/office-paper-roll.png": "/static/media/office-paper-roll.9aa15c5dc29a6506c834.png",
     "static/media/packing-paper2.png": "/static/media/packing-paper2.1ff67dfd685b9a6a3b02.png",
     "static/media/light-coated-paper.png": "/static/media/light-coated-paper.8265b90de2a51818a415.png",
@@ -37,12 +38,12 @@
     "static/media/carton-mel.jpg": "/static/media/carton-mel.3433a97bf1ee3d6b5d1a.jpg",
     "static/media/logRia.jpg": "/static/media/logRia.c32879b1872f1378a7b7.jpg",
     "index.html": "/index.html",
-    "main.2e3a3f86.css.map": "/static/css/main.2e3a3f86.css.map",
-    "main.432431cf.js.map": "/static/js/main.432431cf.js.map",
-    "453.9d90f2fc.chunk.js.map": "/static/js/453.9d90f2fc.chunk.js.map"
+    "main.7912223e.css.map": "/static/css/main.7912223e.css.map",
+    "main.e0ebad79.js.map": "/static/js/main.e0ebad79.js.map",
+    "453.1259e920.chunk.js.map": "/static/js/453.1259e920.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e3a3f86.css",
-    "static/js/main.432431cf.js"
+    "static/css/main.7912223e.css",
+    "static/js/main.e0ebad79.js"
   ]
 }
