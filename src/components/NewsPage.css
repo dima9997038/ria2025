@@ -31,3 +31,86 @@
 .news-item:hover {
     background-color: #f1f1f1;
 }
+
+.header-news{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    /*border-bottom: 2px solid #0056b3;*/
+
+}
+h1 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.news-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.news-date {
+    font-weight: bold;
+    color: #0056b3;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 1.1em;
+}
+
+.news-content {
+    color: #444;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
+.company-name {
+    color: #0056b3;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .news-item {
+        padding: 15px;
+    }
+}
+.news-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Для лучшего отображения на мобильных устройствах */
+@media (max-width: 768px) {
+    .news-image {
+        margin: 15px auto 0;
+        border-radius: 6px;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 480px) {
+    .news-image {
+        margin: 10px auto 0;
+    }
+}

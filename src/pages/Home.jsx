@@ -28,7 +28,7 @@ function Home({email,setEmail}) {
                 <ProjectsComponent/>
             </main>
             <FooterComponent  setEmail={setEmail}/>
-            <TawkTo/>
+            {/*<TawkTo/>*/}
         </>
     );
 }
